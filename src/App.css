@@ -19,7 +19,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #e6faff !important;
+  background: linear-gradient(160deg, #e6faff 0%, #d0f4ff 50%, #e8f8ff 100%) !important;
   color: #213547;
   font-family: "bisbee-variable", sans-serif;
   font-variation-settings: "wght" 400;
@@ -29,47 +29,57 @@ h1, h2, h3, h4, h5 { font-family: "rl-folklor", sans-serif; } /* Aquavit kit fam
 .pine-font { font-family: "Pine", sans-serif; }
 
 /* Cards */
-/* --- Force thicker borders on the bubbles --- */
 .card.custom-card,
 .card.project-card,
 .custom-card,
 .project-card {
   background: #ffffff !important;
-  border: 6px solid #000000 !important;  
+  border: 6px solid #000000 !important;
   border-radius: 2rem !important;
-  box-shadow: 0 6px 20px rgba(0,0,0,.06); /* slightly softer so the border pops */
+  box-shadow: 4px 6px 0px #000000;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card.custom-card:hover,
+.card.project-card:hover,
+.custom-card:hover,
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 10px 0px #000000;
 }
 
 
 
 .custom-card { margin-top: 2rem; }
-.project-card { margin-top: 5rem; }
+.project-card { margin-top: 2rem; }
 
 /* Footer links */
 .footer-link {
   color: #000000;
   font-size: 1.5rem;
-  transition: color .3s ease;
+  transition: color .3s ease, transform .2s ease;
+  display: inline-block;
 }
 .footer-link:hover {
-  color: #000000;
+  color: #0077b6;
   text-decoration: none;
+  transform: translateY(-3px);
 }
 
 /* Buttons */
 .btn-primary {
   background: #000000;
-  color: #000000;
+  color: #ffffff;
   border: 0;
   border-radius: .5rem;
-  padding: .5rem 1.25rem;
-  font-weight: 500;
-  transition: background-color .2s ease;
+  padding: .6rem 1.5rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  transition: background-color .2s ease, transform .15s ease;
 }
 .btn-primary:hover {
-  background: #333 !important;  
+  background: #333 !important;
   color: #fff !important;
-  
+  transform: translateY(-2px);
 }
 
 /* Entrance animation */

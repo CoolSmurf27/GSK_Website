@@ -8,10 +8,10 @@ const EXPERIENCE = [
 ];
 
 const PROJECTS = [
-  { title: 'Discord bots', body: 'I have been making Discord bots in Python for myself and my friends to use in our servers, and I've learned a lot from it.' },
-  { title: 'Video Games', body: 'I've made a few small video games. None are released yet, but working on them taught me a lot about logic and design.' },
-  { title: 'Airline system', body: 'In my first three-week project at RU, I worked with three other teammates to create a system for an airline. I learned a lot not just about programming, but about teamwork.' },
-  { title: 'Job Search Website', body: 'In our second three-week project at RU, we built a job search website with many features — including a chat system between employers and applicants. I'm very proud of what we achieved.' },
+  { title: 'Discord bots', body: "I have been making Discord bots in Python for myself and my friends to use in our servers, and I've learned a lot from it." },
+  { title: 'Video Games', body: "I've made a few small video games. None are released yet, but working on them taught me a lot about logic and design." },
+  { title: 'Airline system', body: "In my first three-week project at RU, I worked with three other teammates to create a system for an airline. I learned a lot not just about programming, but about teamwork." },
+  { title: 'Job Search Website', body: "In our second three-week project at RU, we built a job search website with many features — including a chat system between employers and applicants. I'm very proud of what we achieved." },
 ];
 
 export default function App() {

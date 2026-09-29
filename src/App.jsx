@@ -11,7 +11,7 @@ const PROJECTS = [
   { title: 'Discord bots', body: "I have been making Discord bots in Python for myself and my friends to use in our servers, and I've learned a lot from it." },
   { title: 'Video Games', body: "I've made a few small video games. None are released yet, but working on them taught me a lot about logic and design." },
   { title: 'Airline system', body: "In my first three-week project at RU, I worked with three other teammates to create a system for an airline. I learned a lot not just about programming, but about teamwork." },
-  { title: 'Job Search Website', body: "In our second three-week project at RU, we built a job search website with many features including a chat system between employers and applicants. I'm very proud of what we achieved." },
+  { title: 'Job Search Website', body: "In our second three-week project at RU, we built a job search website with many features including a chat system from scratch between employers and applicants. I'm very proud of what we achieved." },
   { title: 'Renderer from Scratch', body: "I am currently creating a renderer from scratch, which is teaching me a lot about real time rendering applications and the implementation of graphics algorithms." },
 ];
 

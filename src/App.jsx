@@ -83,7 +83,7 @@ export default function App() {
           <a href="https://github.com/CoolSmurf27" target="_blank" rel="noopener noreferrer" className="footer-link" aria-label="GitHub">
             <i className="bi bi-github"></i>
           </a>
-          <a href="CV.pdf" download className="btn btn-primary">Download CV</a>
+          <a href="Primary_CV.pdf" download className="btn btn-primary">Download CV</a>
         </div>
       </footer>
     </div>
